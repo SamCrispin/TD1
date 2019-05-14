@@ -1,0 +1,42 @@
+html, body {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+.mapCell {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+}
+
+.mapPath {
+   background-color: white;
+}
+
+#map {
+   background-color: grey;
+}
+
+.mapStart {
+   background-color: green;
+}
+
+.mapEnd {
+   background-color: red;
+}
+
+.mapTurretSpot {
+   background-color: blue;
+}
+
+.mapTurretSpot:hover {
+   background-color: yellow;
+}
+
+.towerOption {
+   background-color: cornflowerblue;
+   position: relative;
+   width: 20px;
+   height: 20px;
+}
